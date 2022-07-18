@@ -87,15 +87,9 @@ p{
 }
 
 
-#features h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
 
-#features p {
-  color: #8f8f8f;
-}
+
+
 .features-title{
   font-size:1.5rem;
 }
@@ -192,8 +186,41 @@ footer p {
     position: static;
     transform: rotate(0deg);
   }
-
+#title .container-fluid{
+  padding: 5% 2%;
+}
+.container-fluid{
+  padding: 5% 2%;
+}
+#pricing{
+  padding: 100px 8%;
+}
   #title {
     text-align: center;
+  }
+  .card-space{
+    padding: 2% 4%;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+  .big-heading{
+    font-size: 2rem;
+  }
+  .testimonial-text{
+      font-size: 1.5rem;
+  }
+  .section-heading{
+    font-size: 1.8rem;
+  }
+  .price-text{
+    font-size: 1.5rem;
+  }
+  .download-button{
+    width:40%;
+    padding: 2%;
+    font-weight: normal;
+    font-size: 1rem;
+
   }
 }
