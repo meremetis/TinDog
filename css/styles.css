@@ -198,6 +198,23 @@ footer p {
   #title {
     text-align: center;
   }
+  .title-image{
+    width:40%;
+  }
+}
+@media (max-width: 600px) {
+  #title .container-fluid{
+    padding: 5% 6%;
+  }
+  .navbar{
+    padding-bottom: 10%;
+  }
+  .title-image{
+    width:60%;
+  }
+  .container-fluid{
+    padding: 5% 6%;
+  }
   .card-space{
     padding: 2% 4%;
   }
@@ -205,7 +222,46 @@ footer p {
     font-size: 1.5rem;
   }
   .big-heading{
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  .testimonial-text{
+      font-size: 2rem;
+  }
+  .section-heading{
+    font-size: 1.8rem;
+  }
+  .price-text{
+    font-size: 1.5rem;
+  }
+  .download-button{
+    width:40%;
+    padding: 1%;
+    font-weight: normal;
+    font-size: 1rem;
+
+  }
+}
+@media (max-width: 300px) {
+  #title .container-fluid{
+    padding: 5% 6%;
+  }
+  .navbar{
+    padding-bottom: 10%;
+  }
+  .title-image{
+    width:60%;
+  }
+  .container-fluid{
+    padding: 5% 6%;
+  }
+  .card-space{
+    padding: 2% 4%;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+  .big-heading{
+    font-size: 1.5rem;
   }
   .testimonial-text{
       font-size: 1.5rem;
@@ -218,7 +274,7 @@ footer p {
   }
   .download-button{
     width:40%;
-    padding: 2%;
+    padding: 1%;
     font-weight: normal;
     font-size: 1rem;
 
